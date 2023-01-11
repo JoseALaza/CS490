@@ -687,27 +687,7 @@
 </tbody>
 </table>
 </div>
-<div id="course_syllabus_details" style="display: none;">
-  <p>The syllabus page shows a table-oriented view of the course schedule, and the basics of
-course grading.  You can add any other comments, notes, or thoughts you have about the course
-structure, course policies or anything else.</p>
 
-<p>To add some comments, click the "Edit" link at the top.</p>
-</div>
-<form id="edit_course_syllabus_form" style="display: none; margin-bottom: 10px;" action="/courses/16249" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="fqfe1SxUfNM/HqX7HYE6tPxFbCfZLzhGUtafKHnkD9kw7rXhZTEMmktJ4bJf4A2GkwxDSpxcb2064voDE4BGjA==">
-    <label for="course_syllabus_body">Syllabus Description:</label>
-  <div class="clear"></div>
-  <textarea style="width: 100%; height: 300px;" id="course_syllabus_body" name="course[syllabus_body]"></textarea>
-
-    <div class="ic-Form-control ic-Form-control--checkbox">
-      <input name="course[syllabus_course_summary]" type="hidden" value="0"><input type="checkbox" value="1" name="course[syllabus_course_summary]" id="course_syllabus_course_summary">
-      <label class="ic-Label" for="course_syllabus_course_summary">Show Course Summary</label>
-    </div>
-
-  <div class="form-actions">
-    <button type="button" class="btn cancel_button">Cancel</button>
-    <button type="submit" class="btn btn-primary">Update Syllabus</button>
-  </div>
 </form>
 
 </div>
